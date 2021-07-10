@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "838fdcdd-fbad-488f-bd88-703ab3816b8b",
+  "alias": "HelloWorldFromSpFxWebPart",
+  "componentType": "WebPart",
+
+ 
+
+  "version": "*",
+  "manifestVersion": 3,
+
+ 
+
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+ 
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "My New Title" },
+    "description": { "default": "Please enter Some descriptio" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Hi i am new",
+      "productname": "Keyboard",
+      "productdescription": "Keyboard",
+      "productcost": 100,
+      "quantity": 20,
+     "billamount": 0,
+      "discount": 0,
+      "netbillamount": 0
+    }
+  }]
+}
